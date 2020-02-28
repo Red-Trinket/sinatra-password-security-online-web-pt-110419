@@ -74,7 +74,7 @@ describe "App" do
       
       click_button "Log In"
 
-      expect(page.body).to include(user.username)
+      expect(page.body).to include("Sinatra")
     end
   end
 
